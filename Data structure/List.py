@@ -1,0 +1,14 @@
+lists=[]
+print(lists)
+list1=[1,2,3]*3
+print(list1)
+print(len(list1))
+#indexing
+print(list1[-1])
+print(list1[2:4])
+#iteration
+list2=[9,3,4,5,6,21]
+list3=list1+list2
+print(list3)
+list1.extend(list2)
+print(list1)
