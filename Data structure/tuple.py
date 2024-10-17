@@ -1,0 +1,10 @@
+tuplex=("Tuples",False,2.3,5)
+print(tuplex)
+print(len(tuplex))
+print(tuplex[0])
+print(tuplex[0:2])
+print(type(tuplex))
+print(tuplex.count(2.3))
+tuplex2=(12,"tuples",4.5)
+print(tuplex2+tuplex)
+
