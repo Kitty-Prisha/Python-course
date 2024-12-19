@@ -35,6 +35,21 @@ for _i in range(numofenemy):
     enemyy.append(random.randint(enemystartymin,enemystartymax))
     enemyxchange.append(enemyspeedx)
     enemyychange.append(enemyspeedy)
+#bullet
+bulletx=0
+bullety=playerstartY
+bulletxchange=0
+bulletychange=10
+bulletstate="ready"
+#score variable
+score=0
+font=pygame.font.Font('freesansbold.ttf', 32)
+textx=10
+texty=10
+gameover=pygame.font.Font('freesansbold.ttf', 64)
+
+
+    
     
 
 
