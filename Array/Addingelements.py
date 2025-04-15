@@ -1,0 +1,11 @@
+import array as ar
+a=ar.array('i',[1,2,3])
+print(a)
+a.append(2)
+print(a)
+a.insert(2,3)
+print(a)
+a.pop()
+print(a)
+a.remove(1)
+print(a)
